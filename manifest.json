@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "datadog.lapdog",
+  "name": "Lapdog",
+  "version": "1.0.0",
+  "author": "Jason Hand",
+  "description": "Datadog Lapdog status and quick actions for Agent Observability",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Lapdog",
+    "description": "Shows local Lapdog status with quick links and actions",
+    "category": "Datadog",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  },
+  "license": "MIT"
+}
